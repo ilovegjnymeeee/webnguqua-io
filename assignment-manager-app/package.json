@@ -1,0 +1,34 @@
+{
+  "name": "assignment-manager-app",
+  "version": "1.0.0",
+  "description": "A web application for managing assignments with practice and grading features.",
+  "main": "src/App.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "eslint-plugin-react": "^7.27.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/assignment-manager-app.git"
+  },
+  "keywords": [
+    "assignments",
+    "grading",
+    "practice",
+    "education"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
