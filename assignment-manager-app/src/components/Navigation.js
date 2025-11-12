@@ -1,21 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './components.css';
+import '../styles/components.css';
 
 const Navigation = () => {
     return (
         <nav className="navigation">
-            <ul>
-                <li>
+            <ul style={{ listStyle: 'none', display: 'flex', margin: 0, padding: 0 }}>
+                <li style={{ margin: '0 15px' }}>
                     <Link to="/">Dashboard</Link>
                 </li>
-                <li>
+                <li style={{ margin: '0 15px' }}>
                     <Link to="/assignments">Assignments</Link>
                 </li>
-                <li>
+                <li style={{ margin: '0 15px' }}>
                     <Link to="/practice">Practice</Link>
                 </li>
-                <li>
+                <li style={{ margin: '0 15px' }}>
                     <Link to="/grading">Grading</Link>
                 </li>
             </ul>
